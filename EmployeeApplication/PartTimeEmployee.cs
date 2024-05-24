@@ -85,7 +85,7 @@ namespace EmployeeApplication
             return basic_salary;
         }
 
-        void computeSalary(int hoursWorked, double ratePerHour)
+        public void computeSalary(int hoursWorked, double ratePerHour)
         {
             basic_salary = hoursWorked * ratePerHour;
         }
